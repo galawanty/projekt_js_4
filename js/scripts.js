@@ -11,7 +11,8 @@ document.write(value)
 
 if (value > 0) {
 		console.log('wynik dodatni');
-} else {
+}   else if (value < 0) {
 		console.log('wynik ujemny');
+}	else {
+		console.log('wynik 0');
 }
-
